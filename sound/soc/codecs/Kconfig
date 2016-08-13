@@ -934,4 +934,8 @@ config SND_SOC_MSM_HDMI_DBA_CODEC_RX
 
 config SND_SOC_FSA8500
 	tristate
+
+config SOUND_CONTROL
+	bool "Sound control for wcd9335"
+
 endmenu
